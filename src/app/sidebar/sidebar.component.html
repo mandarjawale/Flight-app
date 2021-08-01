@@ -1,0 +1,22 @@
+<div class="sidebar">
+    <div class="tab">
+        <button class="tablinks">One way</button>
+        <button class="tablinks">Return</button>
+    </div>
+    <div id="Tokyo" class="tabcontent">
+        <form>
+            <input type="text" id="fname" name="fname" placeholder="Enter Origin city">
+            <input type="text" id="lname" name="lname" placeholder="Enter Destination city">
+            <input type="date" id="departure-date" name="departure">
+            <input type="date" id="return-date" name="departure">
+            <select name="cars" id="passergers">
+                <option value="Local">Local</option>
+                <option value="Private">Private</option>
+                <option value="Special">Special</option>
+            </select>
+
+            <button id ="search" class="search">Search</button>
+        </form>
+        <app-range></app-range>
+    </div>
+</div>

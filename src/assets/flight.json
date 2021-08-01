@@ -1,0 +1,31 @@
+{
+  "flight": [
+    {
+      "fromcity": "PNQ ",
+      "tocity": "DEL",
+      "departuredate": "10.00AM",
+      "reachdate": "12.00PM",
+      "price": "RS. 9500.00",
+      "fNumber": "AI-202",
+      "image": "assets/air.jpg"
+    },
+    {
+      "fromcity": "PNQ ",
+      "tocity": "DEL",
+      "departuredate": "10.00AM",
+      "reachdate": "12.00PM",
+      "price": "RS. 9500.00",
+      "fNumber": "AI-202",
+      "image": "assets/air2.jpg"
+    },
+    {
+      "fromcity": "PNQ ",
+      "tocity": "DEL",
+      "departuredate": "10.00AM",
+      "reachdate": "12.00PM",
+      "price": "RS. 9500.00",
+      "fNumber": "AI-202",
+      "image": "assets/air3.jpg"
+    }
+  ]
+}

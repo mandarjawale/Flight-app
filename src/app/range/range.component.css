@@ -1,0 +1,16 @@
+
+    .slidecontainer{
+        margin-left: 8%;
+    }
+
+#title{
+    background: #d74f57;
+    padding: 7px;
+    color: white;
+    font-size: 14px;
+    width: 79%;
+    
+    border-radius: 8px;
+    margin: 0 2px 0 0 0;
+    font-weight: bold;
+}

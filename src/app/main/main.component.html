@@ -1,0 +1,97 @@
+<div class="subheader">
+    <h1 class="subHeading">Pune > Delhi > Pune</h1>
+    <span class="dates"> Depart : 1st Jan 2012 </span><br>
+    <span class="dates">Return: 10th Jan 2012</span>
+</div>
+ 
+<div class="allDetails" >
+    <div class="searcResult">
+        <ul style="list-style-type:none;" class="searchedResult" *ngFor="let item of collection">
+            <li id ="price" class="flightTimingAndNumber">{{item.price}}</li>
+            <li class="flightTimingAndNumber">{{item.fNumber}} </li>
+            <li class="flightTimingAndNumber"> {{item.fromcity}} > {{item.tocity}}</li>     
+            <li class="flightTimingAndNumber">{{item.departuredate}}</li>
+            <li class="flightTimingAndNumber">{{item.reachdate}}</li>
+        </ul>      
+    </div>
+    <div class="return">
+        <ul style="list-style-type:none;" class="searchedResult" *ngFor="let item of collection">
+            <li class="flightTimingAndNumber">{{item.fNumber}} </li>
+            <li class="flightTimingAndNumber"> {{item.fromcity}} > {{item.tocity}}</li>     
+            <li class="flightTimingAndNumber">{{item.departuredate}}</li>
+            <li class="flightTimingAndNumber">{{item.reachdate}}</li>
+        </ul>
+    </div>
+
+    <div class="imgSection">
+        <ul class="searchedResult" *ngFor="let item of collection">
+            <img class="flightImg" src={{item.image}}/> <br/>
+            <button id="book1" class="book">Book this flight</button>
+        </ul>       
+    </div>
+  
+ 
+</div>
+
+
+ 
+ 
+
+<!-- <div class="searcResult">
+    <section class="searchedResult">
+        <h1>Rs. 9.500.00 </h1>
+        <p class="flightTimingAndNumber">AI 202</p>
+        <p class="flightTimingAndNumber">PNQ > DEL</p>
+        <p class="flightTimingAndNumber">Depart : 10.00AM</p>
+        <p class="flightTimingAndNumber">Arrive : 12.00PM</p>
+    </section>
+    <section class="searchedResult">
+        <p class="flightTimingAndNumber">AI 202</p>
+        <p class="flightTimingAndNumber">DEL > PNQ</p>
+        <p class="flightTimingAndNumber"> Depart : 08.00AM</p>
+        <p class="flightTimingAndNumber">Arrive : 11.00PM</p>
+    </section>
+    <section class="searchedResult">
+       
+    </section>
+</div>
+<div class="searcResult">
+    <section class="searchedResult">
+        <h1>Rs. 9.500.00 </h1>
+        <p class="flightTimingAndNumber">AI 202</p>
+        <p class="flightTimingAndNumber">PNQ > DEL</p>
+        <p class="flightTimingAndNumber">Depart : 10.00AM</p>
+        <p class="flightTimingAndNumber"> Arrive : 12.00PM</p>
+    </section>
+    <section class="searchedResult">
+        <p class="flightTimingAndNumber">AI 202</p>
+        <p class="flightTimingAndNumber">DEL > PNQ</p>
+        <p class="flightTimingAndNumber">Depart : 08.00AM</p>
+        <p class="flightTimingAndNumber">Arrive : 11.00PM</p>
+    </section>
+    <section class="searchedResult">
+        <img class="flightImg" src="assets/air3.jpg" /> <br/>
+        <button id="book1" class="book">Book this flight</button>
+    </section>
+</div>
+ -->
+
+
+<!-- <h1>list-resto works!</h1>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of collection"> 
+        <td >{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.address}}</td>
+    </tbody>
+  </table> -->
